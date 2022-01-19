@@ -20,6 +20,7 @@ class MainActivity : AppCompatActivity() {
         super.onDestroy()
         Log.w(TAG,"Were going dowm")
         Log.w(TAG, "CAPTAIN!")
+        Log.e(TAG, "Hello Captain ERROR")
     }
     override fun onStart() {
         super.onStart()
